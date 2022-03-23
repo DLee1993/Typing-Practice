@@ -1,4 +1,4 @@
-const RANDOM_QUOTE_API = "http://api.quotable.io/random",
+const RANDOM_QUOTE_API = "https://api.quotable.io/random",
     quoteText = document.querySelector(".quote-text"),
     inputField = document.querySelector(".input-text"),
     timeCont = document.querySelector(".timer span b"),
