@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ProType | Typing Practice</title>
+        <link rel="stylesheet" href="./main.css" />
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <h1 class="title">ProType</h1>
+        <section class="text-container">
+            <div class="toolTip">
+                <p class="toolTip-text">Start Typing...</p>
+            </div>
+            <div class="quote-text" id="quoteText"></div>
+            <textarea name="input-text" id="inputText" class="input-text" autofocus></textarea>
+        </section>
+        <section class="results-container">
+            <p class="typing-accuracy">
+                <span class="percentage"></span>% Accuracy
+            </p>
+            <ul class="results-details">
+                <li class="mistakes">
+                    Typos:
+                    <span>0</span>
+                </li>
+                <li class="wpm">
+                    WPM:
+                    <span>0</span>
+                </li>
+                <li class="cpm">
+                    CPM:
+                    <span>0</span>
+                </li>
+            </ul>
+            <button>Try Again</button>
+        </section>
+    </body>
+</html>
